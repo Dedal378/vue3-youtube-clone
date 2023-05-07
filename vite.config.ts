@@ -15,5 +15,5 @@ export default defineConfig({
   },
   define: { 'process.env': {}},
   server: { port: 3000 },
-  base: '/vue3-ts-template/',
+  base: '/vue3-youtube-clone/',
 })

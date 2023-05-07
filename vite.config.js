@@ -5,7 +5,7 @@ import UnoCSS from 'unocss/vite';
 export default defineConfig({
     plugins: [
         vue(),
-        UnoCSS({ configFile: './uno.config.js' })
+        UnoCSS({ configFile: './uno.config.ts' })
     ],
     resolve: {
         alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
@@ -14,5 +14,5 @@ export default defineConfig({
     },
     define: { 'process.env': {} },
     server: { port: 3000 },
-    base: '/vue3-ts-template/',
+    base: '/vue3-youtube-clone/',
 });
